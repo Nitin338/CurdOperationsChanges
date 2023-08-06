@@ -1,0 +1,106 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.header{
+    width: 100%;
+    padding: 10px 80px;
+    background-color:yellowgreen;
+}
+.header h5{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* upper- btn-box*/
+.upper-btn-box
+{
+width:100%;
+height: 100px;
+
+display: flex;
+padding:30px;
+}
+
+.upper-btn-box .left-box{
+    width:50%;
+   
+}
+
+.upper-btn-box .left-box button{
+border-radius: none;
+outline:none;
+background-color: blue;
+color: aliceblue;
+padding:13px;
+font-size:small;
+font-style: italic;
+font-family: 'Courier New', Courier, monospace;
+margin: 0px 10px;
+}
+   
+.upper-btn-box .right-box{
+    width:50%;
+    height:70px;
+    
+}
+.upper-btn-box .right-box input{
+    padding: 13px;
+    width:80%;
+    outline: none;
+    border:none;
+    border-bottom: 3px solid yellow;
+}
+
+
+/* table coding*/
+.table-box{
+    width:100%;
+    padding:13px;
+}
+
+.table-box table{
+    width:100%;
+    border-top: 1px solid;
+}
+.table-box table tr th{
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+   
+   
+} 
+.table-box table tr td{
+    
+  
+   
+} 
+
+
+/* modal Coding*/
+.modal{
+    background-color: blue;
+    position: fixed;
+    width:60%;
+    height:60%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+}
+.modal .modall{
+    background-color:red;
+    position: fixed;
+    width:30%;
+    height:100%;
+    
+}
+.modal .modal-right{
+    background-color:yellow;
+    width:100%;
+    height:100%;
+    
+}
